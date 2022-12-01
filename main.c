@@ -91,3 +91,4 @@ double awgn(double s) {
 
     return noise;
 }
+박태현 연습

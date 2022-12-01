@@ -6,7 +6,6 @@
 
 #define ITER 10000000;
 
-// 주석을 한번 달아 보자
 
 int main() {
     double awgn();
@@ -41,7 +40,6 @@ int main() {
         sigma = E / sqrt(2.0 * SNR); // Standard deviation of noise
         error = 0;
 
-	// 어라 주석이 하나 더 달렸네?
         // Gen of the binary data source
         for (int k = 0; k < ITER; k++) {
             temp = (double) rand() / RAND_MAX;
@@ -91,3 +89,12 @@ double awgn(double s) {
 
     return noise;
 }
+
+호민씨가 내주는 과제 입니다.
+어찌하나 잘 봅시다!
+
+이건 테스트 코드 입니다.
+
+본 커멘트로 인해 실제로 동작하지 않습니다.
+
+어떤 것을 추가 할껀가요?
